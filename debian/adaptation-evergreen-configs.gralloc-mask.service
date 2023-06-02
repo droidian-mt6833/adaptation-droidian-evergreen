@@ -1,0 +1,13 @@
+[Unit]
+Description=Mask gralloc.default from vendor to /dev/null
+Before=lxc@android.service
+After=android-mount.service
+Depends=android-mount.service
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStart=/usr/bin/mount -o bind /dev/null /vendor/lib64/hw/gralloc.default.so
+
+[Install]
+WantedBy=multi-user.target

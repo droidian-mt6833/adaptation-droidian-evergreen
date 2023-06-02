@@ -1,0 +1,11 @@
+[Unit]
+Description=Enable Wi-FI
+After=lxc@android.service
+
+[Service]
+Type=oneshot
+ExecStartPre=/usr/bin/sleep 5
+ExecStart=/bin/sh -c 'echo S > /dev/wmtWifi'
+
+[Install]
+WantedBy=multi-user.target

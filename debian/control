@@ -1,0 +1,20 @@
+Source: adaptation-droidian-evergreen
+Maintainer: mmtrt
+Section: metapackages
+Priority: optional
+Build-Depends: debhelper (>= 10)
+Standards-Version: 4.5.0.3
+
+Package: adaptation-droidian-evergreen
+Architecture: all
+Depends: ${misc:Depends},
+         adaptation-hybris-api30-phone,
+         adaptation-evergreen-configs,
+         wlr-randr,
+Description: adapatation-evergreen-meta
+ evergreen api30 adaptation metapackage
+
+Package: adaptation-evergreen-configs
+Architecture: all
+Depends: ${misc:Depends},
+Description: evergreen's adaptation configs

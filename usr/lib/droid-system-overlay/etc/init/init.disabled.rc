@@ -1,0 +1,4 @@
+service time_daemon time_daemon_HYBRIS_DISABLED
+    disabled
+    oneshot
+    override
