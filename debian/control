@@ -11,6 +11,7 @@ Depends: ${misc:Depends},
          adaptation-hybris-api30-phone,
          adaptation-evergreen-configs,
          wlr-randr,
+         bsdextrautils,
 Description: adapatation-evergreen-meta
  evergreen api30 adaptation metapackage
 
