@@ -6,3 +6,6 @@
 override_dh_installsystemd:
 	dh_installsystemd -padaptation-evergreen-configs --name=wifi-enable-fix wifi-enable-fix.service --no-start
 	dh_installsystemd -padaptation-evergreen-configs --name=clock-pos-fix clock-pos-fix.service --no-start
+
+override_dh_builddeb:
+	dh_builddeb -- -Zxz
