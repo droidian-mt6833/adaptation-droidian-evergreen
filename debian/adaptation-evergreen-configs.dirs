@@ -1,12 +1,5 @@
-/etc/udev/rules.d
-/var/lib/bluetooth
 /etc/phosh
-/etc/systemd/system/phosh.service.d
-/etc/skel
-/usr/bin
-/usr/share/glib-2.0/schemas
 /usr/lib/adaptation-evergreen
 /usr/lib/droidian/device
-/usr/lib/droid-vendor-overlay/bin
-/usr/lib/droid-system-overlay/etc/init/
-/usr/bin
+/usr/lib/droid-vendor-overlay/bin/hw
+/usr/lib/droid-vendor-overlay/lib64/hw
