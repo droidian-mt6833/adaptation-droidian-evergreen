@@ -5,6 +5,7 @@
 /etc/skel
 /usr/bin
 /usr/share/glib-2.0/schemas
+/usr/lib/adaptation-evergreen
 /usr/lib/droidian/device
 /usr/lib/droid-vendor-overlay/bin
 /usr/lib/droid-system-overlay/etc/init/
