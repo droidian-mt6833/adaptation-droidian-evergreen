@@ -1,1 +1,2 @@
 /usr/lib/adaptation-droidian-evergreen/droid-get-bt-address.sh /usr/bin/droid/droid-get-bt-address.sh
+/usr/lib/adaptation-droidian-evergreen/sources.list.d/evergreen.list /etc/apt/sources.list.d/evergreen.list
